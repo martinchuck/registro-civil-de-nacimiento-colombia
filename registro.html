@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+ 
+    
+    <div class="padre">
+        <div class="hijo">
+
+    <form action="/my-handling-form-page">
+        <table class="tabla_principal" >
+            <tr>
+                <th colspan="4">
+                    <h1>REPÚBLICA DE COLOMBIA</h1>
+                    <img src="LOGO.png" alt="escudo">
+                </th>
+            </tr>
+            <tr>
+                <th colspan="4">ORGANIZACIÓN ELECTORAL<br>REGISTRADURIA NACIONAL DE ESTADO CIVIL <br>DIRECCIÓN NACIONAL DE REGISTRO CIVIL</th>
+            </tr>
+            <tr>
+                <td class="nuip">
+                    <div>
+                        <table class="cajanuip">
+                            <tr>
+                                <th class="nuip_texto">NUIP</th>
+                                <th><input class="text_area" type="textarea"></th>
+                            </tr>
+                        </table>
+                    </div>
+
+                </td>
+                <th class="registro" colspan="1">
+                    REGISTRO CIVIL <br> DE NACIMIENTO
+                </th>
+                <td class="indicativo">Indicativo <br> Serial</td>
+                <th class="numero" >35760616</th>
+            </tr>
+        </table>
+        <div>
+            <table border="1" class="tablas_flotantes">
+                <tr>
+                    <td colspan="10">Datos de la oficina de registro - Clase de oficina</td>
+                </tr>
+                <tr>
+                    <td><br>Registraduría <input type="text" class="cuadritos"></td>
+                    <td><br>Notaría <input type="text" class="cuadritos"> Numero <input type="text" class="cuadritos"><input type="text" class="cuadritos"> </td>
+                    <td><br>Consulado <input type="text" class="cuadritos"></td>
+                    <td><br>Corregimiento <input type="text" class="cuadritos"></td>
+                    <td><br>Inspección de Policia <input type="text" class="cuadritos"></td>
+                    <td><br>Consulado <input type="text" class="cuadritos"></td>
+                    <td><br>Código </td>
+                    <td><div class="codigo"></div></td>
+                    <td><div class="codigo"></div></td>
+                    <td><div class="codigo"></div></td>
+                </tr>
+                <tr><td colspan="10">País - Departamento - Municipio - Corregimiento e/o Inspección de Policía</td></tr>
+                <tr><td colspan="10"><textarea class="espacio_pais"> </textarea>
+            </table>
+        </div>
+
+        <div>
+            <table border="1" class="tablas_flotantes">
+                <tr><td colspan="16">Datos del inscrito</td></tr>
+                <tr>
+                    <td colspan="12" class="subtitulos">Primer Apellido</td>
+                    <td colspan="13" class="subtitulos">Segundo Apellido</td>
+                </tr>
+                <tr>
+                    <td colspan="12"><textarea class="apellidos"></textarea></td>
+                    <td colspan="13"><textarea class="apellidos"></textarea></td>
+                </tr>
+                <tr><td colspan="16" class="subtitulos">Nombre(s)</td></tr>
+                <tr><td colspan="16"><textarea class="espacio_pais"></textarea></td></tr>
+                <tr>
+                    <td colspan="12" class="subtitulos">Fecha de nacimiento</td>
+                    <td class="subtitulos" id="sexo">Sexo (en letras)</td>
+                    <td class="subtitulos">Grupo sanguineo</td>
+                    <td class="subtitulos">Factor RH</td>
+                </tr>
+                <tr>
+                    <td class="año">Año</td>
+                    <td><br><div class="codigo"></div></td>
+                    <td><div class="codigo"></div></td>
+                    <td><div class="codigo"></div></td>
+                    <td><div class="codigo"></div></td>
+                    <td class="mes">Mes</td>
+                    <td><div class="codigo"></div></td>
+                    <td><div class="codigo"></div></td>
+                    <td><div class="codigo"></div></td>
+                    <td class="mes">Día</td>
+                    <td><div class="codigo"></div></td>
+                    <td><div class="codigo"></div></td>
+                    <td><div class="codigo"></div></td>
+                    <td><div class="codigo"></div></td>
+                    <td><div class="codigo"></div></td>
+                </tr>
+                <tr><td colspan="16" class="subtitulos">Lugar de nacimiento(País - Departamento - Municipio - Corregimiento e/o Inspección)</td></tr>
+                <tr><td colspan="16"><textarea class="espacio_pais"></textarea></td></tr>
+            </table>
+        </div>
+
+        <div>
+            <table border="1" class="tablas_flotantes">
+                <tr>
+                <td class="subtitulos">Tipo de documento antecedentes o Declaración de testigos</td>
+                <td class="subtitulos">Número certificado de nacido vivo</td>
+                </tr>
+                <tr>
+                    <td><textarea class="espacio_pais"></textarea></td>
+                    <td><textarea class="espacio_pais"></textarea></td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <table border="1" class="tablas_flotantes">
+                <tr><td colspan="2">Datos de la madre</td></tr>
+                <tr><td class="subtitulos" colspan="2">Apellidos y nombres completos</td></tr>
+                <tr><td colspan="2"><textarea class="espacio_pais"></textarea></td></tr>
+                <tr>
+                    <td class="subtitulos">Documento de indentificación (Clase y número)</td>
+                    <td class="subtitulos">Nacionalidad</td>
+                </tr>
+                <tr>
+                    <td><textarea class="espacio_pais"></textarea></td>
+                    <td><textarea class="espacio_pais"></textarea></td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <table border="1" class="tablas_flotantes">
+                <tr><td colspan="2">Datos del padre</td></tr>
+                <tr><td class="subtitulos" colspan="2">Apellidos y nombres completos</td></tr>
+                <tr><td colspan="2"><textarea class="espacio_pais"></textarea></td></tr>
+                <tr>
+                    <td class="subtitulos">Documento de indentificación (Clase y número)</td>
+                    <td class="subtitulos">Nacionalidad</td>
+                </tr>
+                <tr>
+                    <td><textarea class="espacio_pais"></textarea></td>
+                    <td><textarea class="espacio_pais"></textarea></td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+        <table border="1" class="tablas_flotantes">
+            <tr><td colspan="2">Datos del declarante</td></tr>
+            <tr><td class="subtitulos" colspan="2">Apellidos y nombres completos</td></tr>
+            <tr><td colspan="2"><textarea class="espacio_pais"></textarea></td></tr>
+            <tr>
+                <td class="subtitulos">Documento de indentificación (Clase y número)</td>
+                <td class="subtitulos">Firma</td>
+            </tr>
+            <tr>
+                <td><textarea class="espacio_pais"></textarea></td>
+                <td><textarea class="espacio_pais"></textarea></td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <table border="1" class="tablas_flotantes">
+            <tr><td colspan="2">Datos primer testigo</td></tr>
+            <tr><td class="subtitulos" colspan="2">Apellidos y nombres completos</td></tr>
+            <tr><td colspan="2"><textarea class="espacio_pais"></textarea></td></tr>
+            <tr>
+                <td class="subtitulos">Documento de indentificación (Clase y número)</td>
+                <td class="subtitulos">Firma</td>
+            </tr>
+            <tr>
+                <td><textarea class="espacio_pais"></textarea></td>
+                <td><textarea class="espacio_pais"></textarea></td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <table border="1" class="tablas_flotantes">
+            <tr><td colspan="2">Datos segundo testigo </td></tr>
+            <tr><td class="subtitulos" colspan="2">Apellidos y nombres completos</td></tr>
+            <tr><td colspan="2"><textarea class="espacio_pais"></textarea></td></tr>
+            <tr>
+                <td class="subtitulos">Documento de indentificación (Clase y número)</td>
+                <td class="subtitulos">Firma</td>
+            </tr>
+            <tr>
+                <td><textarea class="espacio_pais"></textarea></td>
+                <td><textarea class="espacio_pais"></textarea></td>
+            </tr>
+        </table>
+    </div>        
+
+    <div>
+        <table border="1" class="tablas_flotantes">
+            <tr>
+                <td class="subtitulos" colspan="3">Fecha de inscripción</td>
+                <td class="subtitulos" >Nombre y firma del funcionario que autoriza</td>
+            </tr>
+            <tr>
+                <td style="width: 13.8em;"><br> <br><span class="separar_año"> Año </span><input class="cuadros" type="text"> <input class="cuadros" type="text"> <input class="cuadros" type="text"> <input type="text" class="cuadros"></td>
+                <td style="width: 10.8em;"><br> <br><span class="separar_mes">Mes</span><input class="cuadros" type="text"> <input class="cuadros" type="text"> <input class="cuadros" type="text"></td>
+                <td style="width: 10em;"><br> <br><span class="separar_mes">Día</span><input class="cuadros" type="text"> <input class="cuadros" type="text"> </td>
+                <td class="subtitulos"> <textarea class="espacio_paisn"></textarea> <br> _____________________________________________________________________________ <br>Nombre y firma</td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <table border="1" class="tablas_flotantes">
+        <tr>
+            <td class="subtitulos" colspan="1">Reconocimiento paterno</td>
+            <td class="subtitulos" colspan="1">Nombre y firma del funcionario ante quien se hace el reconocimiento</td>
+        </tr>
+        <tr>
+            <td class="subtitulos" style="width: 34.5em;"> <textarea class="espacio_paisn"></textarea> <br>_______________________________________________________________ <br>Firma </td>
+            <td  class="subtitulos"> <textarea class="espacio_paisn"></textarea> <br>___________________________________________________________________________<br>Firma </td>
+        </tr>
+        </table>
+    </div>
+    
+    <div>
+        <table border="1" class="tablas_flotantes">
+            <tr><th colspan="2">ESPACIO PARA NOTAS</th></tr>
+            <tr>
+                <td class="subtitulos" style="width: 34.5em;"> <textarea class="espacio_paisn"></textarea></td>
+                <td  class="subtitulos"> <textarea class="espacio_paisn"></textarea>  </td>
+            </tr>
+        </table>
+    </div>                        
+    </form> 
+        
+        </div>
+
+        
+    </div>
+    <div class="codigobarras">
+        <br><br><br><br>
+        <hr class="linea2">
+        <hr class="linea1">
+        <hr class="linea5">
+        <hr class="linea4">
+        <hr class="linea6">
+        <hr class="linea3">
+        <hr class="linea5">
+        <hr class="linea5">
+        <hr class="linea5">
+        <hr class="linea4">
+        <hr class="linea6">
+        <hr class="linea7">
+        <hr class="linea2">
+        <hr class="linea7">
+        <hr class="linea4">
+        <hr class="linea6">
+        <hr class="linea3">
+        <hr class="linea5">
+        <hr class="linea5">
+        <hr class="linea5">
+        <hr class="linea4">
+        <hr class="linea1">
+        <hr class="linea5">
+        <hr class="linea4">
+        <hr class="linea6">
+        <hr class="linea3">
+        <hr class="linea5">
+        <hr class="linea5">
+        <hr class="linea5">
+        <hr class="linea7">
+        <hr class="linea2">
+        <hr class="linea7">
+        <hr class="linea4">
+        <hr class="linea6">
+        <hr class="linea3">
+        <hr class="linea7">
+        <hr class="linea2">
+        <hr class="linea7">
+        <hr class="linea4">
+        <hr class="linea6">
+        <hr class="linea3">
+        <hr class="linea5">
+        <hr class="linea5">
+        <hr class="linea4">
+        <hr class="linea1">
+        <hr class="linea5">
+        <hr class="linea4">
+        <hr class="linea6">
+        <hr class="linea3">
+        <hr class="linea7">
+        <hr class="linea2">
+        <hr class="linea7">
+        <hr class="linea4">
+        <hr class="linea1">
+        <hr class="linea5">
+        <hr class="linea4">
+        <hr class="linea6">
+        <hr class="linea3">
+        <hr class="linea3">
+        <hr class="linea5">
+        <hr class="linea5">
+        <hr class="linea7">
+        <hr class="linea2">
+        <hr class="linea7">
+    </div>
+
+    
+
+</body>
+</html>
