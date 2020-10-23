@@ -5,6 +5,9 @@
     font-family: "Consolas" ;
     
 }
+body{
+    border: 3px solid red;
+}
 .padre{
     display: flex;
     float: left;
